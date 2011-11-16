@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3807
+
+My first attempt a vim script. Runs the apg(1) program (apt-get install apg, http://www.adel.nursat.kz/apg/download.shtml) and appends a randomly generated password to the end of the current line.
+
+Passwords are unpronounceable and random, though I exclude some special symbols -- those that break "words" when double-clicking in an xterm (makes copy-pasting passwords for login easier).
+
+Since I store my passwords in a GnuPG encrypted file, I added a binding for F12 that actives when opening .gpg, .pgp, or .asc files.
